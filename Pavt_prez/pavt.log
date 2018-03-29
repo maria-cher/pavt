@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.3.18)  24 MAR 2018 16:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.3.18)  30 MAR 2018 01:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1317,6 +1317,18 @@ Package: beamercolorthemewhale 2010/06/17  (rcs-revision d02a7cf4d8ae)
 ))
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mathsurround' on input line 26.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 26.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 26.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 26.
 
 
@@ -1352,16 +1364,40 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `superscript' on input line 26.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mathsurround' on input line 26.
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\CYRM' on input line 26.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 26.
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\CYRV' on input line 26.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 26.
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\CYRCH' on input line 26.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyre' on input line 26.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrr' on input line 26.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrn' on input line 26.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyro' on input line 26.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyrv' on input line 26.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\cyra' on input line 26.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
@@ -1406,42 +1442,6 @@ Package hyperref Warning: Glyph not defined in PD1 encoding,
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
 (hyperref)                removing `\cyrv' on input line 26.
-
-
-Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\CYRM' on input line 26.
-
-
-Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\CYRV' on input line 26.
-
-
-Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\CYRCH' on input line 26.
-
-
-Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyre' on input line 26.
-
-
-Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyrr' on input line 26.
-
-
-Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyrn' on input line 26.
-
-
-Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyro' on input line 26.
-
-
-Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyrv' on input line 26.
-
-
-Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\cyra' on input line 26.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
@@ -2072,33 +2072,6 @@ LaTeX Font Warning: Font shape `T2A/cmss/m/n' in size <4> not available
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2
 
 ]
-Package epstopdf Info: Source file: <img/idea.eps>
-(epstopdf)                    date: 2018-03-24 14:17:36
-(epstopdf)                    size: 3307794 bytes
-(epstopdf)             Output file: <img/idea-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-03-24 14:18:31
-(epstopdf)                    size: 48641 bytes
-(epstopdf)             Command: <repstopdf --outfile=img/idea-eps-converted-to.
-pdf img/idea.eps>
-(epstopdf)             \includegraphics on input line 76.
-Package epstopdf Info: Output file is already uptodate.
-
-<img/idea-eps-converted-to.pdf, id=85, 1580.90625pt x 346.29375pt>
-File: img/idea-eps-converted-to.pdf Graphic file (type pdf)
-
-<use img/idea-eps-converted-to.pdf>
-Package pdftex.def Info: img/idea-eps-converted-to.pdf used on input line 76.
-(pdftex.def)             Requested size: 307.28987pt x 67.30771pt.
- [3
-
- <./img/idea-eps-converted-to.pdf>]
-[4
-
-] [5
-
-] [6
-
-]
 Package epstopdf Info: Source file: <img/openfoam.eps>
 (epstopdf)                    date: 2018-03-24 14:31:34
 (epstopdf)                    size: 10006517 bytes
@@ -2107,34 +2080,60 @@ Package epstopdf Info: Source file: <img/openfoam.eps>
 (epstopdf)                    size: 169359 bytes
 (epstopdf)             Command: <repstopdf --outfile=img/openfoam-eps-converted
 -to.pdf img/openfoam.eps>
-(epstopdf)             \includegraphics on input line 132.
+(epstopdf)             \includegraphics on input line 79.
 Package epstopdf Info: Output file is already uptodate.
 
-<img/openfoam-eps-converted-to.pdf, id=194, 1670.24pt x 992.70876pt>
+<img/openfoam-eps-converted-to.pdf, id=85, 1670.24pt x 992.70876pt>
 File: img/openfoam-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/openfoam-eps-converted-to.pdf>
-Package pdftex.def Info: img/openfoam-eps-converted-to.pdf used on input line 1
-32.
+Package pdftex.def Info: img/openfoam-eps-converted-to.pdf used on input line 7
+9.
 (pdftex.def)             Requested size: 215.10196pt x 127.84486pt.
- [7
+ [3
 
- <./img/openfoam-eps-converted-to.pdf>] [8
+ <./img/openfoam-eps-converted-to.pdf>] [4
 
-] <img/mpiesm.png, id=252, 331.2375pt x 194.22563pt>
+] <img/mpiesm.png, id=142, 331.2375pt x 194.22563pt>
 File: img/mpiesm.png Graphic file (type png)
  <use img/mpiesm.png>
-Package pdftex.def Info: img/mpiesm.png used on input line 155.
+Package pdftex.def Info: img/mpiesm.png used on input line 101.
 (pdftex.def)             Requested size: 215.10196pt x 126.1266pt.
 
-[9
+[5
 
  <./img/mpiesm.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 174--174
+Underfull \hbox (badness 10000) in paragraph at lines 120--120
 []|\T2A/cmss/m/n/10.95 Общее ко-ли-че-ство
  []
 
-[10
+[6
+
+]
+Package epstopdf Info: Source file: <img/idea.eps>
+(epstopdf)                    date: 2018-03-24 14:17:36
+(epstopdf)                    size: 3307794 bytes
+(epstopdf)             Output file: <img/idea-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-03-24 14:18:31
+(epstopdf)                    size: 48641 bytes
+(epstopdf)             Command: <repstopdf --outfile=img/idea-eps-converted-to.
+pdf img/idea.eps>
+(epstopdf)             \includegraphics on input line 131.
+Package epstopdf Info: Output file is already uptodate.
+ <img/idea-eps-converted-to.pdf, id=196, 1580.90625pt x 346.29375pt>
+File: img/idea-eps-converted-to.pdf Graphic file (type pdf)
+
+<use img/idea-eps-converted-to.pdf>
+Package pdftex.def Info: img/idea-eps-converted-to.pdf used on input line 131.
+(pdftex.def)             Requested size: 307.28987pt x 67.30771pt.
+ [7
+
+ <./img/idea-eps-converted-to.pdf>]
+[8
+
+] [9
+
+] [10
 
 ] [11
 
@@ -2144,82 +2143,80 @@ Underfull \hbox (badness 10000) in paragraph at lines 174--174
 
 ] [14
 
-] [15
-
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 273--273
+Underfull \hbox (badness 10000) in paragraph at lines 265--265
 []|\T2A/cmss/m/n/10 Количество уда-лен-ных
  []
 
-[16
+[15
 
-] [17
+] [16
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 303--303
+Underfull \hbox (badness 10000) in paragraph at lines 295--295
 []|\T2A/cmss/m/n/10 Метод
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 303--303
+Underfull \hbox (badness 10000) in paragraph at lines 295--295
 []|\T2A/cmss/m/n/10 Метод
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 303--303
+Underfull \hbox (badness 10000) in paragraph at lines 295--295
 []|\T2A/cmss/m/n/10 Метод
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 303--303
+Underfull \hbox (badness 10000) in paragraph at lines 295--295
 \T2A/cmss/m/n/10 ре-лак-са-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 303--303
+Underfull \hbox (badness 10000) in paragraph at lines 295--295
 []|\T2A/cmss/m/n/10 Метод
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 303--303
+Underfull \hbox (badness 10000) in paragraph at lines 295--295
 \T2A/cmss/m/n/10 про-стой
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 303--303
+Underfull \hbox (badness 10000) in paragraph at lines 295--295
 []|\T2A/cmss/m/n/10 Метод
  []
 
 
-Overfull \hbox (5.01863pt too wide) in paragraph at lines 303--303
+Overfull \hbox (5.01863pt too wide) in paragraph at lines 295--295
 \T2A/cmss/m/n/10 реализации| 
  []
 
 
-Overfull \hbox (15.04893pt too wide) in paragraph at lines 303--303
+Overfull \hbox (15.04893pt too wide) in paragraph at lines 295--295
  [] 
  []
 
-[18
+[17
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+cmss on input line 312
+LaTeX Font Info:    Try loading font information for OMS+cmss on input line 304
 .
-LaTeX Font Info:    No file OMScmss.fd. on input line 312.
+LaTeX Font Info:    No file OMScmss.fd. on input line 304.
 
 
 LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbullet' on input line 312.
+(Font)              for symbol `textbullet' on input line 304.
 
-[19
+[18
 
 ] (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
-) [20
+) [19
 
 ]
-[21
+[20
 
 ]
 \tf@nav=\write7
@@ -2231,11 +2228,11 @@ File: lstlang1.sty 2015/06/04 1.6 listings language file
 \tf@snm=\write9
 \openout9 = `pavt.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 359.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 359.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 351.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 351.
  (./pavt.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 359.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 359.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 351.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 351.
 Package rerunfilecheck Info: File `pavt.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -2246,13 +2243,13 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 359.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 351.
  ) 
 Here is how much of TeX's memory you used:
- 19845 strings out of 494399
- 361652 string characters out of 6172183
- 454004 words of memory out of 5000000
- 22602 multiletter control sequences out of 15000+600000
+ 19861 strings out of 494399
+ 362090 string characters out of 6172183
+ 453957 words of memory out of 5000000
+ 22620 multiletter control sequences out of 15000+600000
  25455 words of font info for 65 fonts, out of 8000000 for 9000
  452 hyphenation exceptions out of 8191
  48i,16n,59p,409b,567s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2268,10 +2265,10 @@ r/fonts/pk/ljfour/lh/lh-t2a/lass1440.600pk></usr/share/texlive/texmf-dist/fonts
 /public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
 onts/cm/cmsy8.pfb>
-Output written on pavt.pdf (21 pages, 397476 bytes).
+Output written on pavt.pdf (20 pages, 398387 bytes).
 PDF statistics:
- 984 PDF objects out of 1000 (max. 8388607)
- 606 compressed objects within 7 object streams
- 43 named destinations out of 1000 (max. 500000)
+ 967 PDF objects out of 1000 (max. 8388607)
+ 580 compressed objects within 6 object streams
+ 41 named destinations out of 1000 (max. 500000)
  94 words of extra memory for PDF output out of 10000 (max. 10000000)
 
